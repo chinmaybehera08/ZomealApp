@@ -10,20 +10,30 @@ import PincodeScreen from '../src/pages/PincodeScreen';
 import Dashboard from '../src/pages/Dashboard';
 import TermsCondition from '../src/pages/TermsCondition';
 import Menu from '../src/pages/Menu';
+import { Provider } from 'react-redux';
+import store from '../src/components/store'
+import { reduxForm } from 'redux-form';
+
 
 const Stack = createNativeStackNavigator();
 export default function Routes() {
   return (
- <NavigationContainer>
+<Provider store={store}>
+<NavigationContainer>
   <Stack.Navigator>
-  
-    <Stack.Screen 
-    name='Login'
-    component={LoginScreen}
-    />
+   
+    <Stack.Screen name='Login' component={LoginScreen}/>
+    <Stack.Screen name='menu' component={Menu}/>
+    <Stack.Screen name='forgetpassword'component={ForgetPassword}/>
+    <Stack.Screen name='pincode' component={PincodeScreen}/>
+    <Stack.Screen name='dashboard' component={Dashboard}/>
+    <Stack.Screen name='termsCondition' component={TermsCondition}/>
+    <Stack.Screen name="SubMainScreen" component={SubMainScreen} options={{headerShown:false}}/>
+    <Stack.Screen name='Signup'component={SignUpScreen}/>
 
   </Stack.Navigator>
  </NavigationContainer>
+</Provider>
     
   )
 }
