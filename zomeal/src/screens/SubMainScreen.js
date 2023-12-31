@@ -6,9 +6,9 @@ return(
     <PaperProvider>
         <View style={Styling.bottomContainer}>
             <Button mode='contained'style={Styling.button} onPress={()=>
-            navigation.navigate('Signup')}>SignUp</Button>
+            navigation.navigate('signup')}>SignUp</Button>
             <Button mode='contained' style={Styling.button} onPress={()=>
-            navigation.navigate('Login')}>LogIn</Button>
+            navigation.navigate('login')}>LogIn</Button>
         </View>
     </PaperProvider>
 )

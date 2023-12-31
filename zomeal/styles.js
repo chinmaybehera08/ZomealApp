@@ -6,7 +6,9 @@ const primary = 'black'
 const Styling = StyleSheet.create(
    
     {
-
+        primary:{
+         color:'#000'
+        },
         container:{
             flex:1,
             justifyContent:'center',
@@ -26,23 +28,22 @@ const Styling = StyleSheet.create(
             fontSize:20,
             marginTop:30
         },
+        forgetPasswordText:{
+            color:'secondary',
+            fontSize:12.5, 
+            textAlign:'right'
+        },
         textfield:{
-            width:'100%',
+            width:'80%',
             height:50,
             borderRadius:5,
-            paddingLeft:10,
-            color:'black',
-            marginTop:5,
             marginBottom:5,
-            borderWidth:1,
-            borderColor:'black',
-            backgroundColor:'none'
+            borderColor:'white',
         },
         button:{
             width:'80%',
             height:50,
             marginTop:15,
-            marginBottom:15,
             borderRadius:30,
             lineHeight:50,
             fontSize:25.5,
