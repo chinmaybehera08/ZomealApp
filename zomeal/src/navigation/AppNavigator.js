@@ -19,30 +19,6 @@
 // import { mdiMenu } from '@mdi/js';
 
 
-
-
-
-// const Stack = createNativeStackNavigator();
-// export default function Routes() {
-//   return (
-//     <Provider store={store}>
-//       <NavigationContainer>
-//         <Stack.Navigator>
-//           <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
-//           <Stack.Screen name='login' component={LoginScreen} />
-//           <Stack.Screen name='signup' component={SignUpScreen} />
-//           <Stack.Screen name='menu' component={Menu} />
-//           <Stack.Screen name='forgetpassword' component={ForgetPassword} />
-//           <Stack.Screen name='pincode' component={PincodeScreen} />
-//           <Stack.Screen name='dashboard' component={Dashboard} options={{headerBackTitle: true}}/>
-//           <Stack.Screen name='termsCondition' component={TermsCondition} />
-//         </Stack.Navigator>
-//       </NavigationContainer>
-//     </Provider>
-
-//   )
-// }
-
 import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
