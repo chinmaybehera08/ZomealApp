@@ -1,14 +1,12 @@
 import React from 'react'
-import { TextInput } from 'react-native'
-const TextField = (width,borderColor,borderWidth,borderRadius,placeholder)=>{
- return(
-    <TextInput style={{
-        width:width,
-        borderColor:borderColor,
-        borderWidth:borderWidth,
-        borderRadius:borderRadius,
-        placeholder:placeholder
-    }}/>
- )
+import { Input, Stack } from 'native-base'
+const TextField =()=>{
+  return(
+<Box>
+   <Input mx="4" placeholder="" size="" variant=""/>
+</Box>
+  )
+
 }
-export default TextField
+
+export default TextField 

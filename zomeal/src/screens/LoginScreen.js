@@ -1,10 +1,9 @@
-import { Text, View,Pressable,ToastAndroid } from 'react-native'
-import { useTheme, Button,Checkbox,TextInput, PaperProvider, Divider } from 'react-native-paper'
 import Styling from '../../styles'
 import { useState } from 'react'
 import { FIREBASE_AUTH } from '../services/authService'
 import  { signInWithEmailAndPassword ,connectAuthEmulator,getAuth } from 'firebase/auth'
-
+import { Box, Center, FormControl, Image } from 'native-base'
+import logo from '../assets/adaptive-icon.png'
 
 
 
@@ -40,55 +39,37 @@ const LoginScreen = ({ navigation }) => {
   };
  
   return (
-     <PaperProvider>
-       <View style={Styling.container}>
-       <Divider/>
-       <TextInput
-        style={Styling.textfield}
-        mode='outlined'
-        label='Enter your Username'
-        value={username}
-        keyboardType='email-address'
-        onChangeText={handledTextChange}
-       />
-       <View style={{width:'80%',paddingBottom:2}}>
-          <Text style={Styling.forgetPasswordText}>Forget Username.</Text>
-        </View>
-       <TextInput 
-        style={Styling.textfield}
-        mode='outlined'
-        label='Enter your password'
-        value={userpassword}
-        textContentType='newPassword'
-        onChangeText={handledPasswordChange}
-       
-        />
-       
-        <View style={{width:'80%',paddingBottom:2}}>
-          <Text style={Styling.forgetPasswordText}>Forget Password.</Text>
-        </View>
-        <View style={{display:'flex', flexDirection:'row',width:'85%',paddingTop:10,paddingBottom:10}}>
-          <Checkbox status={checked ? 'checked':'unchecked'} onPress={()=>setchecked(!checked)}></Checkbox>
-          <Text style={{ width:'85%',color:Styling.primary ,fontSize:13.5, textAlign:'left'}}>I have read and agreed to the terms and conditions.</Text>
-        </View>
-        <Pressable onPress={()=>
-        navigation.navigate('termsCondition')}>
-          <Text>Terms And Conditions</Text>
-        </Pressable>
-        <Button mode='contained' style={Styling.button} onPress={
-          signin }>
-          Login
-        </Button>
-        <View style={{display:'flex', flexDirection:'row', justifyContent:'center',width:'80%',padding:'5px'}}>
-          <Text style={{color:'black',fontSize:12.5, textAlign:'center'}}>Don't have an account.?</Text>
-          <Pressable style={{color:'#fff',fontSize:10.5}} onPress={()=>
-        navigation.navigate('signup')}>
-          <Text style={{color:'blue', marginLeft:2, fontSize:12.5}}>SignUp here</Text>
-        </Pressable>
-        </View>
-      </View>
-      
-     </PaperProvider>
+    <Box>
+      <Box alignItems="center" >
+        <Center>
+          <Image source={{
+            uri:{logo}
+          }} alt="zomeal_logo"/>
+        </Center>
+      </Box>
+      <FormControl isRequired>
+      <Stack mx="4">
+            <FormControl.Label>Phone Number</FormControl.Label>
+            <Input type="number" defaultValue="12345" placeholder="Enter your phone number" />
+            <FormControl.HelperText>
+              Please mention your !0 digits phone number
+            </FormControl.HelperText>
+            <FormControl.ErrorMessage leftIcon={<WarningOutlineIcon size="xs" />}>
+              The Phone number should be of 10 digits.
+            </FormControl.ErrorMessage>
+          </Stack>
+          <Stack mx="4">
+            <FormControl.Label>Password</FormControl.Label>
+            <Input type="password" defaultValue="12345" placeholder="password" />
+            <FormControl.HelperText>
+              Must be atleast 6 characters.
+            </FormControl.HelperText>
+            <FormControl.ErrorMessage leftIcon={<WarningOutlineIcon size="xs" />}>
+              Atleast 6 characters are required.
+            </FormControl.ErrorMessage>
+          </Stack>
+        </FormControl>
+    </Box>
   )
 
 }

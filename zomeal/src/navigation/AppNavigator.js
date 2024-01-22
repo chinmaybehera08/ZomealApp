@@ -62,7 +62,7 @@ export default function Routes() {
             </>
           ) : (
             <>
-              <Stack.Screen name="phoneauth" component={PhoneAuth}/>
+              <Stack.Screen name="phoneauth" component={PhoneAuth} options={{headerShown:false}}/>
               <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
               <Stack.Screen name="login" component={LoginScreen} />
               <Stack.Screen name="signup" component={SignUpScreen} />
