@@ -38,7 +38,11 @@ const Styling = StyleSheet.create(
             height:50,
             borderRadius:5,
             marginBottom:5,
-            borderColor:'white',
+            borderColor:'black',
+            borderRadius:30,
+            borderWidth:1,
+            paddingLeft:30,
+            fontSize:15.5
         },
         button:{
             width:'80%',

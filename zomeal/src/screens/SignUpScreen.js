@@ -1,10 +1,13 @@
 import { ScrollView, Text,ToastAndroid,View} from "react-native"
 import { PaperProvider, Button, TextInput,Checkbox } from "react-native-paper"
 import Styling from "../../styles"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Pressable } from "react-native";
 import { createUserWithEmailAndPassword } from 'firebase/auth'
-import { FIREBASE_AUTH } from "../services/authService";
+import { FIREBASE_AUTH, FIREBASE_FIRESTORE } from "../services/authService";
+import { addDoc, collection } from "@firebase/firestore";
+import { FormControl } from "native-base"
+
 
 
 
@@ -14,10 +17,13 @@ const SignUpScreen=({ navigation})=>{
   const [text, setText] = useState("")
   const [checked ,setchecked] = useState(false)
   const [emailid, setEmailid] = useState('')
-  const [fullname, setFullname] = useState('')
+  const [firstname, setFirstname] = useState('')
+  const [middlename,setMiddlename] = useState('')
+  const [lastname,setLastName] = useState('')
   const [password,setPassword] = useState('')
   const [cpassword, setCpassword] = useState('')
   const [address, setAddress] = useState('')
+  const [pincode, setPincode] = useState(' ')
   const [phoneNumber, setPhoneNumber] = useState(' ')
   const [loading, setLoading] = useState(false);
 
@@ -25,8 +31,14 @@ const SignUpScreen=({ navigation})=>{
   const handleEmailInput=(emailid)=>{
    setEmailid(emailid)
   }
-  const handleFullnameInput=(fullname)=>{
-   setFullname(fullname)
+  const handleFirstnameInput=(firstname)=>{
+   setFirstname(firstname)
+  }
+  const handleMiddlenameInput = (middlename)=>{
+    setMiddlename(middlename)
+  }
+  const handleLastnameInput = (lastname)=>{
+    setLastName(lastname)
   }
   const handlePasswordInput=(password)=>{
    setPassword(password)
@@ -40,25 +52,40 @@ const SignUpScreen=({ navigation})=>{
   const handlePhoneNumberInput=(phoneNumber)=>{
     setPhoneNumber(phoneNumber)
   }
-  
+  const handlePincodeInput = (pincode)=>{
+    setPincode(pincode)
+  }
 
 
 
 
 
-  const signup = async () =>{
-    try{
-       setLoading(true)
-     const Credentials = await createUserWithEmailAndPassword(FIREBASE_AUTH,emailid,password,cpassword,fullname,address,phoneNumber)
-     ToastAndroid.show('Congatulations! You have registered successfully', ToastAndroid.SHORT)
-     navigation.navigate('pincode')
-    }catch(error){
-      console.log(error)
-      ToastAndroid.show('Registration Failed', ToastAndroid.SHORT)
-    }finally{
-      setLoading(false)
-    }
+   const signup =  () =>{
+    useEffect(()=>{
+      try{
+        setLoading(true)
+      const Credentials = createUserWithEmailAndPassword(FIREBASE_AUTH,emailid,password,cpassword,firstname,middlename,lastname,address,pincode,phoneNumber)
+      const firestoreDocument = addDoc(collection(FIREBASE_FIRESTORE,'zomeal_user'),{
+        fname:firstname,
+        mname:middlename,
+        lname:lastname,
+        emailid:emailid,
+        address:address,
+        pinocde:pincode,
+        phonenumber:phoneNumber
+      })
+      ToastAndroid.show('Congatulations! You have registered successfully', ToastAndroid.SHORT)
+      navigation.navigate('pincode')
+     }catch(error){
+       console.log(error)
+       ToastAndroid.show('Registration Failed', ToastAndroid.SHORT)
+     }finally{
+       setLoading(false)
+     }
+    },[])
+   
   } 
+
 return(
   <PaperProvider>
     <ScrollView>
@@ -69,9 +96,26 @@ return(
        mode='outlined'
        value={fullname} 
        style={Styling.textfield}
-       onChangeText={handleFullnameInput}
-       name="Full name"  
-       placeholder="Enter your full name" required />
+       onChangeText={handleFirstnameInput}
+       name="Fname"  
+       placeholder="Enter your first name"
+       error='true' required />
+       <TextInput 
+       mode='outlined'
+       value={fullname} 
+       style={Styling.textfield}
+       onChangeText={handleMiddlenameInput}
+       name="Mname"  
+       placeholder="Enter your middle name"
+       error='true' required />
+       <TextInput 
+       mode='outlined'
+       value={fullname} 
+       style={Styling.textfield}
+       onChangeText={handleLastnameInput}
+       name="Lname"  
+       placeholder="Enter your last name"
+       error='true' required />
 
        <TextInput 
        mode='outlined'
@@ -113,6 +157,14 @@ return(
        onChangeText={handleAddressInput}
        name="Address"  
        placeholder="Enter your address"
+       />
+         <TextInput 
+       mode='outlined'
+       value={address} 
+       style={Styling.textfield}
+       onChangeText={handleAddressInput}
+       name="Pincode"  
+       placeholder="Enter your pincode"
        />
     <View style={{display:'flex', flexDirection:'row',width:'85%',paddingTop:10,paddingBottom:10}}>
           <Checkbox status={checked ? 'checked':'unchecked'} onPress={()=>setchecked(!checked)}></Checkbox>

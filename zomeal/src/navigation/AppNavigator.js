@@ -33,6 +33,8 @@ import ForgetPassword from '../screens/ForgetPassword';
 import PincodeScreen from '../screens/PincodeScreen';
 import Dashboard from '../screens/Dashboard';
 import TermsCondition from '../screens/TermsCondition';
+import PaymentGateway from '../screens/PaymentGateway';
+import PhoneAuth from '../screens/PhoneAuth';
 
 const Stack = createNativeStackNavigator();
 
@@ -60,11 +62,13 @@ export default function Routes() {
             </>
           ) : (
             <>
+              <Stack.Screen name="phoneauth" component={PhoneAuth}/>
               <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
               <Stack.Screen name="login" component={LoginScreen} />
               <Stack.Screen name="signup" component={SignUpScreen} />
               <Stack.Screen name="forgetpassword" component={ForgetPassword} />
               <Stack.Screen name="dashboard" component={Dashboard} options={{ headerBackTitle: true }} />
+              <Stack.Screen name='paymentgateway' component={PaymentGateway} />
               <Stack.Screen name="termsCondition" component={TermsCondition} />
             </>
           )}

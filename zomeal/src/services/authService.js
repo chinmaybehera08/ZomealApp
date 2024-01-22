@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth} from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getDatabase, ref, onValue } from 'firebase/database';
-
+import { collection,addDoc } from '@firebase/firestore'
 
 const firebaseConfig = {
   apiKey:"AIzaSyCtMd-5mZsHJxTY8m9RLU7iVSzvj0PsODk",
@@ -36,3 +36,16 @@ onValue(dataReference,(snapshot)=>{
    const fetchedData = fetchingData
    console.log(JSON.stringify(fetchedData,null,2))
   })
+
+
+  try{
+    const docRef = await addDoc(collection(FIREBASE_FIRESTORE,'zomeal_user'),{
+      age:'13',
+      name:'sam'
+      
+    })
+    console.log('Document Wriiten with Id:', docRef.id)
+  }catch(e){
+    console.error('Error adding document')
+  }
+  
