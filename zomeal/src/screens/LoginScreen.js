@@ -32,7 +32,7 @@ const LoginScreen = ({navigation}) => {
             </InputGroup>
           </FormControl>
           <Button mt="2" colorScheme="orange" onPress={()=>
-            navigation.navigate('OTP Verification')
+            navigation.navigate('selection')
           } >
             Send Code
           </Button>

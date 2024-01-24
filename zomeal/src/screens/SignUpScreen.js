@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { FIREBASE_AUTH, FIREBASE_FIRESTORE } from "../services/authService";
 import { addDoc, collection } from "@firebase/firestore";
-import { Container,Content,Form,Item,Input,Button,Text } from "native-base"
-
+import { Container,Content,Form,Item,Input,Button,Text,Box,Center, Image } from "native-base"
+import zomealLogo from '../assets/zomealLogo.jpg'
 
 
 
@@ -107,31 +107,12 @@ const SignUpScreen=({ navigation})=>{
    
   } 
 
-return(
-  <Container>
-  <Content padder>
-      
-        <Input placeholder="First Name" value={firstName} onChangeText={(text) => setFirstName(text)} />
-
-        <Input placeholder="Last Name" value={lastName} onChangeText={(text) => setLastName(text)} />
-
-        <Input placeholder="Phone Number" keyboardType="numeric" value={phoneNumber} onChangeText={(text) => setPhoneNumber(text)} />
-
-        <Input placeholder="Verification Code" keyboardType="numeric" value={verificationCode} onChangeText={(text) => setVerificationCode(text)} />
-
-        <Input placeholder="Pin Code" secureTextEntry value={pinCode} onChangeText={(text) => setPinCode(text)} />
-
-      <Button block onPress={handleSignup}>
-        <Text>Sign Up</Text>
-      </Button>
-      <Item style={{ marginTop: 10 }}>
-        <Button block onPress={handleLocateMe}>
-          <Text>Locate Me</Text>
-        </Button>
-      </Item>
-  
-  </Content>
-</Container>
+return( 
+  <Box>
+    <Center>
+      <Image my='4' source={zomealLogo}/>
+    </Center>
+  </Box>
 )
 }
 export default SignUpScreen

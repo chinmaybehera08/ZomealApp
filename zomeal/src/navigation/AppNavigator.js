@@ -63,12 +63,13 @@ export default function AppNavigator() {
             </>
           ) : (
             <>
+              <Stack.Screen name="signup" component={SignUpScreen} />
              <Stack.Screen name="login" component={LoginScreen} />
               <Stack.Screen name='OTP Verification' component={VerfiyCodeScreen}/>
               <Stack.Screen name='selection' component={Selection}/>
               <Stack.Screen name="phoneauth" component={PhoneAuth} options={{headerShown:false}}/>
               <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
-               <Stack.Screen name="signup" component={SignUpScreen} />
+             
               <Stack.Screen name="forgetpassword" component={ForgetPassword} />
               <Stack.Screen name="dashboard" component={Dashboard} options={{ headerBackTitle: true }} />
               <Stack.Screen name='paymentgateway' component={PaymentGateway} />
