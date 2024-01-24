@@ -35,10 +35,12 @@ import Dashboard from '../screens/Dashboard';
 import TermsCondition from '../screens/TermsCondition';
 import PaymentGateway from '../screens/PaymentGateway';
 import PhoneAuth from '../screens/PhoneAuth';
+import Selection from '../screens/Selection'
+import VerfiyCodeScreen from '../screens/VerfiyCodeScreen';
 
 const Stack = createNativeStackNavigator();
 
-export default function Routes() {
+export default function AppNavigator() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -62,9 +64,13 @@ export default function Routes() {
             </>
           ) : (
             <>
+             <Stack.Screen name="login" component={LoginScreen} />
+              <Stack.Screen name='verfiyCodeScreen' component={VerfiyCodeScreen}/>
+              <Stack.Screen name='selection' component={Selection}/>
               <Stack.Screen name="phoneauth" component={PhoneAuth} options={{headerShown:false}}/>
               <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
-              <Stack.Screen name="login" component={LoginScreen} />
+             
+
               <Stack.Screen name="signup" component={SignUpScreen} />
               <Stack.Screen name="forgetpassword" component={ForgetPassword} />
               <Stack.Screen name="dashboard" component={Dashboard} options={{ headerBackTitle: true }} />

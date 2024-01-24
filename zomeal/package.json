@@ -36,6 +36,7 @@
     "firebase": "^10.7.1",
     "mysql2": "^3.6.5",
     "native-base": "^3.4.28",
+    "node": "^21.6.0",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
     "react-native": "0.72.6",

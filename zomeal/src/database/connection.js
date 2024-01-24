@@ -1,3 +1,5 @@
+import firestore from '@firebase/firestore';
 
-import { FIREBASE_FIRESTORE } from '../services/authService'
+// Function to fetch data
+
 
