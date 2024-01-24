@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth} from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getDatabase, onValue, ref} from 'firebase/database';
-import { collection,addDoc } from 'firebase/firestore'
+import { collection,getDocs,addDoc } from 'firebase/firestore'
 
 
 const firebaseConfig = {
@@ -41,14 +41,13 @@ export const FIREBASE_DB = getDatabase(FIREBASE_APP);
 
   const fetchDataFromFirestore = async () => {
     try {
-      const snapshot = await getDocs(collection(db,'users'))
-      snapshot.forEach((doc) => {
-        console.log(`${doc.id} => ${doc.data()}`);
-      });
-      
-      console.log('Fetched data:', data);
-    } catch (error) {
-      console.error('Error fetching data:', error);
+      const docRef = await getDocs(collection(FIREBASE_FIRESTORE, "users"))
+     docRef.forEach((doc)=>{
+      console.log(`${doc.id}=> ${doc.data({})}`)
+     })
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
     }
   };
   

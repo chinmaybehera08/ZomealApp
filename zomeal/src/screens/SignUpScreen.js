@@ -1,10 +1,9 @@
-import Styling from "../../styles"
+
 import { useEffect, useState } from "react"
-import { Pressable } from "react-native";
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { FIREBASE_AUTH, FIREBASE_FIRESTORE } from "../services/authService";
 import { addDoc, collection } from "@firebase/firestore";
-import { FormControl, NativeBaseProvider } from "native-base"
+import { Container,Content,Form,Item,Input,Button,Text } from "native-base"
 
 
 
@@ -17,7 +16,7 @@ const SignUpScreen=({ navigation})=>{
   const [emailid, setEmailid] = useState('')
   const [firstname, setFirstname] = useState('')
   const [middlename,setMiddlename] = useState('')
-  const [lastname,setLastName] = useState('')
+  const [lastName,setLastName] = useState('')
   const [password,setPassword] = useState('')
   const [cpassword, setCpassword] = useState('')
   const [address, setAddress] = useState('')
@@ -53,12 +52,36 @@ const SignUpScreen=({ navigation})=>{
   const handlePincodeInput = (pincode)=>{
     setPincode(pincode)
   }
+  const [firstName, setFirstName] = useState('');
+  const [verificationCode, setVerificationCode] = useState('');
+  const [pinCode, setPinCode] = useState('');
 
+  const handleSignup = () => {
+    // Perform signup logic here
+    // You can use the entered values (firstName, lastName, phoneNumber, verificationCode, pinCode)
+    // For simplicity, I'm just showing a toast message with the entered values
+    const message = `First Name: ${firstName}\nLast Name: ${lastName}\nPhone Number: ${phoneNumber}\nVerification Code: ${verificationCode}\nPin Code: ${pinCode}`;
+    
+    Toast.show({
+      text: message,
+      duration: 5000,
+    });
+  };
+
+  const handleLocateMe = () => {
+    // Perform locate me logic here
+    // This is a placeholder, you can implement geolocation functionality
+    Toast.show({
+      text: 'Locating...',
+      duration: 3000,
+    });
+  };
 
 
 
 
    const signup =  () =>{
+    
     useEffect(()=>{
       try{
         setLoading(true)
@@ -85,17 +108,30 @@ const SignUpScreen=({ navigation})=>{
   } 
 
 return(
-  <Box>
-    <ScrollView>
-     
-    </ScrollView>
-  </Box>
+  <Container>
+  <Content padder>
+      
+        <Input placeholder="First Name" value={firstName} onChangeText={(text) => setFirstName(text)} />
+
+        <Input placeholder="Last Name" value={lastName} onChangeText={(text) => setLastName(text)} />
+
+        <Input placeholder="Phone Number" keyboardType="numeric" value={phoneNumber} onChangeText={(text) => setPhoneNumber(text)} />
+
+        <Input placeholder="Verification Code" keyboardType="numeric" value={verificationCode} onChangeText={(text) => setVerificationCode(text)} />
+
+        <Input placeholder="Pin Code" secureTextEntry value={pinCode} onChangeText={(text) => setPinCode(text)} />
+
+      <Button block onPress={handleSignup}>
+        <Text>Sign Up</Text>
+      </Button>
+      <Item style={{ marginTop: 10 }}>
+        <Button block onPress={handleLocateMe}>
+          <Text>Locate Me</Text>
+        </Button>
+      </Item>
+  
+  </Content>
+</Container>
 )
 }
-export default ()=>{
-  <NativeBaseProvider>
-    <Center flex={3} px='3'>
-      <SignUpScreen/>
-    </Center>
-  </NativeBaseProvider>
-}
+export default SignUpScreen

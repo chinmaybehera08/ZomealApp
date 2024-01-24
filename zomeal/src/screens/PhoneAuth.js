@@ -58,13 +58,4 @@ const PhoneAuth = ({navigation}) => {
     </Center>
 };
 
-    export default () => {
-        return (
-          <NativeBaseProvider>
-            <Center flex={1} px="3">
-                <PhoneAuth />
-            </Center>
-          </NativeBaseProvider>
-        );
-    };
-    
+    export default PhoneAuth

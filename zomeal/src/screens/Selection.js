@@ -1,4 +1,4 @@
-import { Select, Card, Stack, Content, Container } from 'native-base'
+import { Select, Card, Stack, Content, Container,Center,Heading,Box,CheckIcon } from 'native-base'
 import { NativeBaseProvider } from 'native-base';
 import React from 'react'
 
@@ -34,10 +34,4 @@ const Selection = () => {
   )
 }
 
-export default ()=>{
-  <NativeBaseProvider>
-    <Center>
-      <Selection/>
-    </Center>
-  </NativeBaseProvider>
-}
+export default Selection
