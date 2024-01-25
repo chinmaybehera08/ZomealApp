@@ -1,129 +1,23 @@
-import React, {useState, useEffect} from 'react';
-import {
-  SafeAreaView,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-} from 'react-native';
-import auth from 'firebase/auth'
-import { FIREBASE_AUTH } from '../services/authService';
+import React, { useState } from 'react'
+import {Center,Box,Input,Heading,Button,FormControl,VStack} from 'native-base'
+const VerfiyCodeScreen=({navigation})=>{
 
-const VerifyCodeScreen = () => {
-  const [user, setUser] = useState(null);
-  const [mobile, setMobile] = useState(null);
-  const [confirm, setConfirm] = useState(null);
-  const [code, setCode] = useState('');
-
-  
-  const onAuthStateChanged = async userAuth => {
-    if (!userAuth) {
-      return;
-    }
-    if (userAuth) {
-      console.log(userAuth);
-      setUser(userAuth);
-    }
-
-    return () => userReference();
-  };
-  useEffect(() => {
-    const subscriber = FIREBASE_AUTH.onAuthStateChanged(onAuthStateChanged);
-    return () => {
-      subscriber;
-    };
-  }, []);
-
-  const signInWithMobileNumber = async () => {
-    const confirmation = await FIREBASE_AUTH.signInWithMobileNumber(mobile);
-    setConfirm(confirmation);
-  };
-
-  const confirmCode = async () => {
-    try {
-      await confirm.confirm(code);
-    } catch (error) {
-      console.log('Invalid code.');
-    }
-  };
-
-  const signOut = async () => {
-    FIREBASE_AUTH.signOut()
-
-    setUser(null);
-
-    return () => userReference();
-  };
-
-  return (
-    <SafeAreaView style={{alignItems: 'center', flex: 1, marginTop: 100}}>
-      <View style={{margin: 10}}>
-        <Text>Mobile Sign In Tutorial</Text>
-      </View>
-
-      <View style={{margin: 10}}>
-        {user === null && (
-          <>
-            <TextInput
-              value={mobile}
-              onChangeText={e => setMobile(e)}
-              placeholder="mobile"
-              style={{
-                borderWidth: 1,
-                margin: 10,
-                padding: 10,
-                width: 200,
-              }}></TextInput>
-            {!confirm ? (
-              <>
-                <TouchableOpacity
-                  style={{
-                    borderWidth: 1,
-                    margin: 10,
-                    padding: 10,
-                    alignItems: 'center',
-                  }}
-                  onPress={() => signInWithMobileNumber()}>
-                  <Text>Get Code</Text>
-                </TouchableOpacity>
-              </>
-            ) : (
-              <>
-                <TextInput
-                  value={code}
-                  onChangeText={e => setCode(e)}
-                  placeholder="Code"
-                  style={{
-                    borderWidth: 1,
-                    margin: 10,
-                    padding: 10,
-                    width: 200,
-                  }}></TextInput>
-                <TouchableOpacity
-                  style={{
-                    borderWidth: 1,
-                    margin: 10,
-                    padding: 10,
-                    alignItems: 'center',
-                  }}
-                  onPress={() => confirmCode()}>
-                  <Text>Confirm Code</Text>
-                </TouchableOpacity>
-              </>
-            )}
-          </>
-        )}
-      </View>
-      {user !== null && (
-        <View style={{margin: 10}}>
-          <Text style={{margin: 10}}>{user.phoneNumber}</Text>
-          <TouchableOpacity onPress={signOut} style={{alignItems: 'center'}}>
-            <Text>Sign Out</Text>
-          </TouchableOpacity>
-        </View>
-      )}
-    </SafeAreaView>
-  );
-};
-
-export default VerifyCodeScreen;
+return(
+<Box safeArea='4' p='4' my='4'>
+    <VStack space={'4'} alignItems='center'>
+      <Center h={'100%'}>
+      <Heading size={'md'} fontWeight={'500'} my='4'>
+      Otp Verification
+    </Heading>
+    <Heading  size={'xs'} fontWeight={'400'}>Please Enter your 4 otp sent your registerd mobile number</Heading>
+    <FormControl my='4'>
+      <Input w='100%' placeholder='Enter your Otp'/>
+    </FormControl>
+    <Button my='4' w='200' h='12' mt='6' colorScheme={'orange'} rounded={'full'} onPress={()=>
+    navigation.navigate('Add Address')}>Confirm</Button>
+      </Center>
+   </VStack>
+</Box>
+)
+}
+export default VerfiyCodeScreen

@@ -1,8 +1,12 @@
 
-import {View } from 'react-native'
+import { Box } from 'native-base'
+import Tabs from '../components/Tabs'
  const Dashboard =()=>{
 return(
-    <View></View>
+   <Box h='100%'>
+    
+    <Tabs/>
+   </Box>
 )
 }
 export default Dashboard

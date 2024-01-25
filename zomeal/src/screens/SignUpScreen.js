@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { FIREBASE_AUTH, FIREBASE_FIRESTORE } from "../services/authService";
 import { addDoc, collection } from "@firebase/firestore";
-import { Container,Content,Form,Item,Input,Button,Text,Box,Center, Image } from "native-base"
+import { Container,Content,Form,Item,Input,Button,Text,Box,Center, Image, FormControl, TextArea } from "native-base"
 import zomealLogo from '../assets/zomealLogo.jpg'
 
 
@@ -111,6 +111,12 @@ return(
   <Box>
     <Center>
       <Image my='4' source={zomealLogo}/>
+      <Divder/>
+     <FormControl>
+     <Input placeholder='Enter your first name'/>
+     <Input placeholder='Enter your surname'/>
+     <TextArea/>
+     </FormControl>
     </Center>
   </Box>
 )
