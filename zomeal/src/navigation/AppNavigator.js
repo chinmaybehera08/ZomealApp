@@ -22,8 +22,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Provider } from 'react-redux';
-import store from '../components/store';
 import { FIREBASE_AUTH, auth } from '../services/authService'; // Import your Firebase authentication service
 import SubMainScreen from '../screens/SubMainScreen';
 import LoginScreen from '../screens/LoginScreen';
@@ -33,10 +31,16 @@ import ForgetPassword from '../screens/ForgetPassword';
 import PincodeScreen from '../screens/PincodeScreen';
 import Dashboard from '../screens/Dashboard';
 import TermsCondition from '../screens/TermsCondition';
+import PaymentGateway from '../screens/PaymentGateway';
+import PhoneAuth from '../screens/PhoneAuth';
+import Selection from '../screens/Selection'
+import VerfiyCodeScreen from '../screens/VerfiyCodeScreen';
+import { NativeBaseProvider } from 'native-base';
+import AddAddress from '../screens/AddAddress';
 
 const Stack = createNativeStackNavigator();
 
-export default function Routes() {
+export default function AppNavigator() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -49,8 +53,8 @@ export default function Routes() {
   }, []);
 
   return (
-    <Provider store={store}>
-      <NavigationContainer>
+    <NativeBaseProvider>
+<NavigationContainer>
         <Stack.Navigator>
           {user ? (
             <>
@@ -60,16 +64,22 @@ export default function Routes() {
             </>
           ) : (
             <>
+             <Stack.Screen name="login" component={LoginScreen} />
+              <Stack.Screen name='OTP Verification' component={VerfiyCodeScreen}/>
+              <Stack.Screen name='Add Address' component={AddAddress}/>
+              <Stack.Screen name='selection' component={Selection}/>
+              <Stack.Screen name="phoneauth" component={PhoneAuth} options={{headerShown:false}}/>
               <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
-              <Stack.Screen name="login" component={LoginScreen} />
-              <Stack.Screen name="signup" component={SignUpScreen} />
+             
               <Stack.Screen name="forgetpassword" component={ForgetPassword} />
-              <Stack.Screen name="dashboard" component={Dashboard} options={{ headerBackTitle: true }} />
+              <Stack.Screen name="dashboard" component={Dashboard} options={{ headerBackTitle: true, headerShown:false }} />
+              <Stack.Screen name='paymentgateway' component={PaymentGateway} />
               <Stack.Screen name="termsCondition" component={TermsCondition} />
             </>
           )}
         </Stack.Navigator>
       </NavigationContainer>
-    </Provider>
+    </NativeBaseProvider>
+      
   );
 }
