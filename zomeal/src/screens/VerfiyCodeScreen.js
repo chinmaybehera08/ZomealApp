@@ -14,7 +14,7 @@ return(
       <Input w='100%' placeholder='Enter your Otp'/>
     </FormControl>
     <Button my='4' w='200' h='12' mt='6' colorScheme={'orange'} rounded={'full'} onPress={()=>
-    navigation.navigate('Add Address')}>Confirm</Button>
+    navigation.navigate('selection')}>Confirm</Button>
       </Center>
    </VStack>
 </Box>

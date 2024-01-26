@@ -10,9 +10,9 @@ const Tab = createBottomTabNavigator();
 function Tabs() {
   return (
     <Tab.Navigator screenOptions={{tabBarStyle:{height:70,paddingBottom:10}}} >
-      <Tab.Screen name="Home" component={HomeTab} options={{headerShown:false, tabBarLabelPosition:'below-icon'}}/>
-      <Tab.Screen name="Package" component={PackageTab} options={{headerShown:false}}/>
-      <Tab.Screen name="Services" component={ServiceTab}/>
+      <Tab.Screen name="Home" component={HomeTab} options={{headerShown:true, tabBarLabelPosition:'below-icon'}}/>
+      <Tab.Screen name="Package" component={PackageTab} options={{headerShown:true}}/>
+      <Tab.Screen name="Services" component={ServiceTab} options={{headerShown:false}}/>
       <Tab.Screen name="Menu" component={MenuTab}/>
     </Tab.Navigator>
   );

@@ -43,7 +43,7 @@ export const FIREBASE_DB = getDatabase(FIREBASE_APP);
     try {
       const docRef = await getDocs(collection(FIREBASE_FIRESTORE, "users"))
      docRef.forEach((doc)=>{
-      console.log(`${doc.id}=> ${doc.data({})}`)
+      console.log(JSON.stringify(doc.data()))
      })
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
