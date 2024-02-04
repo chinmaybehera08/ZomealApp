@@ -4,7 +4,7 @@
     "slug": "zomeal",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/zomealLogo.jpg",
+    "icon": "./src/assets/logopng.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./src/assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zomealfoodtech.zomeal"
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5bb6870-0029-40fb-ab55-070376795ac4"
+      }
     }
   }
 }

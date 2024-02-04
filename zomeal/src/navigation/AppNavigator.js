@@ -25,7 +25,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FIREBASE_AUTH, auth } from '../services/authService'; // Import your Firebase authentication service
 import SubMainScreen from '../screens/SubMainScreen';
 import LoginScreen from '../screens/LoginScreen';
-import SignUpScreen from '../screens/SignUpScreen';
 import Menu from '../screens/Menu';
 import ForgetPassword from '../screens/ForgetPassword';
 import PincodeScreen from '../screens/PincodeScreen';
@@ -37,6 +36,11 @@ import Selection from '../screens/Selection'
 import VerfiyCodeScreen from '../screens/VerfiyCodeScreen';
 import { NativeBaseProvider } from 'native-base';
 import AddAddress from '../screens/AddAddress';
+import Calories from '../screens/Calories';
+import Balance from '../screens/Balance'
+import TabNavigator from './TabNavigator';
+
+
 
 const Stack = createNativeStackNavigator();
 
@@ -54,32 +58,35 @@ export default function AppNavigator() {
 
   return (
     <NativeBaseProvider>
-<NavigationContainer>
+      <NavigationContainer>
         <Stack.Navigator>
           {user ? (
             <>
-            
+
               <Stack.Screen name="menu" component={Menu} />
               <Stack.Screen name="pincode" component={PincodeScreen} />
             </>
           ) : (
             <>
-             <Stack.Screen name="login" component={LoginScreen} />
-              <Stack.Screen name='OTP Verification' component={VerfiyCodeScreen}/>
-              <Stack.Screen name='Add Address' component={AddAddress}/>
-              <Stack.Screen name='selection' component={Selection}/>
-              <Stack.Screen name="phoneauth" component={PhoneAuth} options={{headerShown:false}}/>
+              <Stack.Screen name="login" component={LoginScreen} options={{ headerTransparent: true }} />
+              <Stack.Screen name='OTP Verification' component={VerfiyCodeScreen} />
+              <Stack.Screen name='Add Address' component={AddAddress} />
+              <Stack.Screen name='selection' component={Selection} />
+              <Stack.Screen name="phoneauth" component={PhoneAuth} options={{ headerShown: false }} />
               <Stack.Screen name="subMainScreen" component={SubMainScreen} options={{ headerShown: false }} />
-             
               <Stack.Screen name="forgetpassword" component={ForgetPassword} />
-              <Stack.Screen name="dashboard" component={Dashboard} options={{ headerBackTitle: true, headerShown:false }} />
+              <Stack.Screen name="tabnavigator" component={TabNavigator} options={{ headerBackTitle: true, headerShown: false }}/>
               <Stack.Screen name='paymentgateway' component={PaymentGateway} />
               <Stack.Screen name="termsCondition" component={TermsCondition} />
+              <Stack.Screen name="balance" component={Balance}/>
+              <Stack.Screen name="calories" component={Calories}/>
+              <Stack.Screen name="dashboard" component={Dashboard}/>
+              
             </>
           )}
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>
-      
+
   );
 }
