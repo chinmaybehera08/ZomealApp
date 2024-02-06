@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { FIREBASE_AUTH, FIREBASE_FIRESTORE } from "../services/authService";
 import { addDoc, collection } from "@firebase/firestore";
 import { Container,Content,Form,Item,Input,Button,Text,Box,Center, Image, FormControl, TextArea } from "native-base"
-import zomealLogo from '../assets/zomealLogo.jpg'
+import zomealLogo from '../assets/logopng.png'
 
 
 
