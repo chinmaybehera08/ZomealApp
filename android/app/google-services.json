@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "422976100777",
+    "firebase_url": "https://zomealapp-a528b-default-rtdb.firebaseio.com",
+    "project_id": "zomealapp-a528b",
+    "storage_bucket": "zomealapp-a528b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422976100777:android:81bcaab26895cf034c4cb8",
+        "android_client_info": {
+          "package_name": "com.zomeal_android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIOOBnA230uU_ELdhKnUjrEDHoG8Fl5Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
