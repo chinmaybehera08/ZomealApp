@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:1:1-25:12
-MERGED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:flipper-integration:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/7f07848741942eeb8c469f21e601ba86/transformed/jetified-flipper-integration-0.73.4-debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
-MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-screens] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/chinmaybehera/ZomealApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/AndroidManifest.xml:2:1-24:12
 MERGED from [com.facebook.fresco:flipper-fresco-plugin:3.1.3] /Users/chinmaybehera/.gradle/caches/transforms-3/d2058183c54c9449a538e4df59b33239/transformed/jetified-flipper-fresco-plugin-3.1.3/AndroidManifest.xml:8:1-13:12
 MERGED from [com.facebook.fresco:flipper:3.1.3] /Users/chinmaybehera/.gradle/caches/transforms-3/7f871a9a30f29e2c4e3ade119880337c/transformed/jetified-flipper-3.1.3/AndroidManifest.xml:2:1-7:12
@@ -59,6 +59,7 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chinmaybehe
 MERGED from [androidx.loader:loader:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/39abff820ffc84ff13fc0a220596e6d0/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/ad50fd07d15fa33501a226dd417b0073/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/ecc5c064ee03abb998a1e2c3b7b932ce/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.react:hermes-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/41af06d8f81aa82ac854374d3c930da8/transformed/jetified-hermes-android-0.73.4-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/3475e502b33c9120d2b709f4754e26b9/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/06820d864440670608022bfc4d90100a/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -67,12 +68,12 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/chinmaybehera/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/chinmaybehera/.gradle/caches/transforms-3/96db19f0a2748783798f4cd08df4bb99/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chinmaybehera/.gradle/caches/transforms-3/dde88ecc82c371338ffc9bdef4a920ff/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/47bed6cc9c43a6c622ea8d4b5e4c82f6/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/34f7fefe98b50126e58dd75381037cf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/fdf890bb0d5b814551f9827c8e8f5b13/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/c496c133b97f8b159cc2b486b0b992e5/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/c37c8259d514fd36df22404fbfc5e6f7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/chinmaybehera/.gradle/caches/transforms-3/2e46a75d0e5f124efd1ffe610386d763/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/8305f20394eb3b743cc1c897bb3f352b/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/34f7fefe98b50126e58dd75381037cf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/71f2ba76550d2158209fa851e0c77645/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/76dacaa624eee7c3190939e8fc82df07/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/chinmaybehera/.gradle/caches/transforms-3/c2f8af0b843178e5edac18aa7225192b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -83,7 +84,6 @@ MERGED from [androidx.customview:customview:1.1.0] /Users/chinmaybehera/.gradle/
 MERGED from [androidx.core:core:1.9.0] /Users/chinmaybehera/.gradle/caches/transforms-3/2191288890acb3ddfada3069d3b6bac6/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/52a4cf4e409923b4ace33077495b6045/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/4bc71ba51393149601365e033d81849e/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/fdf890bb0d5b814551f9827c8e8f5b13/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/b584d7770ae6bc7bd254ba4647e609d1/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chinmaybehera/.gradle/caches/transforms-3/2617fa0bd621fbff25f536175dabbdec/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/b6fd6e089d1fa589e7d66053083b84a2/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -98,19 +98,19 @@ MERGED from [com.facebook.fbjni:fbjni:0.5.1] /Users/chinmaybehera/.gradle/caches
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/chinmaybehera/.gradle/caches/transforms-3/d226b9defa590c07510afd3d58e4276f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/chinmaybehera/.gradle/caches/transforms-3/0e8571f85877f50abe69bbabcf07a59e/transformed/jetified-openssl-1.1.1l-beta-1/AndroidManifest.xml:1:1-3:12
 	package
-		INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:3:5-67
-MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
 MERGED from [com.facebook.flipper:flipper:0.201.0] /Users/chinmaybehera/.gradle/caches/transforms-3/ba9a8d370471dde33424b11dce54785b/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:13:5-67
@@ -118,14 +118,14 @@ MERGED from [com.facebook.flipper:flipper:0.201.0] /Users/chinmaybehera/.gradle/
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/40e653daa98de3b170266b7ea3230bdb/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/40e653daa98de3b170266b7ea3230bdb/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:3:22-64
 application
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:5:5-8:50
-MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
-MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:5:5-24:19
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:5:5-8:50
+MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
+MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
 MERGED from [com.facebook.react:react-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [com.facebook.react:react-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
@@ -169,75 +169,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chin
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/chinmaybehera/.gradle/caches/transforms-3/d226b9defa590c07510afd3d58e4276f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/chinmaybehera/.gradle/caches/transforms-3/d226b9defa590c07510afd3d58e4276f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
 	android:extractNativeLibs
-		INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/chinmaybehera/.gradle/caches/transforms-3/2191288890acb3ddfada3069d3b6bac6/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:7:7-39
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:7:7-39
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:7:7-39
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:7:7-39
 	tools:ignore
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:8:9-48
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:8:9-48
 	android:roundIcon
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:9:7-41
 	tools:targetApi
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:7:9-29
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:7:9-29
 	android:icon
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:8:7-36
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:8:7-36
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:8:7-36
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:8:7-36
 	android:allowBackup
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:10:7-34
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:10:7-34
 	android:theme
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:11:7-38
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:11:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml:6:9-44
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml:6:9-44
 	android:name
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:6:7-38
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:6:7-38
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:6:7-38
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:6:7-38
 activity#com.zomeal_android.MainActivity
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:12:7-23:18
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:12:7-23:18
 	android:label
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:14:9-41
 	android:launchMode
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:16:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:exported
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:18:9-32
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:18:9-32
 	android:configChanges
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:15:9-118
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:15:9-118
 	android:name
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:13:9-37
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:13:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Users/chinmaybehera/ZomealApp/android/app/src/main/AndroidManifest.xml:21:23-70
 uses-sdk
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 MERGED from [com.facebook.react:flipper-integration:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/7f07848741942eeb8c469f21e601ba86/transformed/jetified-flipper-integration-0.73.4-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:flipper-integration:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/7f07848741942eeb8c469f21e601ba86/transformed/jetified-flipper-integration-0.73.4-debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/chinmaybehera/ZomealApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/chinmaybehera/ZomealApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/AndroidManifest.xml:10:5-44
 MERGED from [com.facebook.react:react-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/AndroidManifest.xml:10:5-44
 MERGED from [com.facebook.fresco:flipper-fresco-plugin:3.1.3] /Users/chinmaybehera/.gradle/caches/transforms-3/d2058183c54c9449a538e4df59b33239/transformed/jetified-flipper-fresco-plugin-3.1.3/AndroidManifest.xml:11:5-44
@@ -332,6 +332,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/chinmaybehera/
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/ad50fd07d15fa33501a226dd417b0073/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/ecc5c064ee03abb998a1e2c3b7b932ce/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/ecc5c064ee03abb998a1e2c3b7b932ce/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.react:hermes-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/41af06d8f81aa82ac854374d3c930da8/transformed/jetified-hermes-android-0.73.4-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:hermes-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/41af06d8f81aa82ac854374d3c930da8/transformed/jetified-hermes-android-0.73.4-debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/3475e502b33c9120d2b709f4754e26b9/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
@@ -348,18 +350,18 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chinmaybehera/.gradl
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chinmaybehera/.gradle/caches/transforms-3/dde88ecc82c371338ffc9bdef4a920ff/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/47bed6cc9c43a6c622ea8d4b5e4c82f6/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/47bed6cc9c43a6c622ea8d4b5e4c82f6/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/34f7fefe98b50126e58dd75381037cf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/34f7fefe98b50126e58dd75381037cf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/fdf890bb0d5b814551f9827c8e8f5b13/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/fdf890bb0d5b814551f9827c8e8f5b13/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/c496c133b97f8b159cc2b486b0b992e5/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/c496c133b97f8b159cc2b486b0b992e5/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/c37c8259d514fd36df22404fbfc5e6f7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/c37c8259d514fd36df22404fbfc5e6f7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/chinmaybehera/.gradle/caches/transforms-3/2e46a75d0e5f124efd1ffe610386d763/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/chinmaybehera/.gradle/caches/transforms-3/2e46a75d0e5f124efd1ffe610386d763/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/8305f20394eb3b743cc1c897bb3f352b/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/8305f20394eb3b743cc1c897bb3f352b/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/34f7fefe98b50126e58dd75381037cf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/34f7fefe98b50126e58dd75381037cf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/71f2ba76550d2158209fa851e0c77645/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chinmaybehera/.gradle/caches/transforms-3/71f2ba76550d2158209fa851e0c77645/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/76dacaa624eee7c3190939e8fc82df07/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -380,8 +382,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chinmaybehera/.g
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/52a4cf4e409923b4ace33077495b6045/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/4bc71ba51393149601365e033d81849e/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/chinmaybehera/.gradle/caches/transforms-3/4bc71ba51393149601365e033d81849e/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/fdf890bb0d5b814551f9827c8e8f5b13/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chinmaybehera/.gradle/caches/transforms-3/fdf890bb0d5b814551f9827c8e8f5b13/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/b584d7770ae6bc7bd254ba4647e609d1/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/chinmaybehera/.gradle/caches/transforms-3/b584d7770ae6bc7bd254ba4647e609d1/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chinmaybehera/.gradle/caches/transforms-3/2617fa0bd621fbff25f536175dabbdec/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
@@ -411,29 +411,29 @@ MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] /Users/chinmaybeh
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
 	android:name
-		ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+		ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/40e653daa98de3b170266b7ea3230bdb/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/chinmaybehera/.gradle/caches/transforms-3/40e653daa98de3b170266b7ea3230bdb/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+		ADDED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/chinmaybehera/.gradle/caches/transforms-3/35ac34e8851fd12e2b7b3885deb172b4/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/chinmaybehera/.gradle/caches/transforms-3/d006273591086da1d977b4b696435398/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
@@ -441,29 +441,29 @@ MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/chinmaybeher
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/chinmaybehera/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/chinmaybehera/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 	tools:targetApi
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-32
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-32
 	android:directBootAware
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/Zomeal_android/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+		ADDED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from [com.facebook.react:react-android:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/AndroidManifest.xml:16:5-78
 	android:name

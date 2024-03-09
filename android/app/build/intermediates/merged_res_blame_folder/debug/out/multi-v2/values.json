@@ -4,7 +4,7 @@
             "outputFile": "com.zomeal_android.app-mergeDebugResources-40:/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/Users/chinmaybehera/ZomealApp/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -95,6 +95,23 @@
                     }
                 },
                 {
+                    "source": "/Users/chinmaybehera/ZomealApp/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
+                    },
+                    "to": {
+                        "startLines": "1900",
+                        "startColumns": "4",
+                        "startOffsets": "127036",
+                        "endColumns": "51",
+                        "endOffsets": "127083"
+                    }
+                },
+                {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/b6fd6e089d1fa589e7d66053083b84a2/transformed/cardview-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -130,25 +147,6 @@
                         "endLines": "12753",
                         "endColumns": "24",
                         "endOffsets": "788598"
-                    }
-                },
-                {
-                    "source": "/Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "2150",
-                        "startColumns": "4",
-                        "startOffsets": "158784",
-                        "endLines": "2153",
-                        "endColumns": "12",
-                        "endOffsets": "158962"
                     }
                 },
                 {
@@ -385,6 +383,25 @@
                     }
                 },
                 {
+                    "source": "/Users/chinmaybehera/ZomealApp/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "2150",
+                        "startColumns": "4",
+                        "startOffsets": "158784",
+                        "endLines": "2153",
+                        "endColumns": "12",
+                        "endOffsets": "158962"
+                    }
+                },
+                {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/cc2e0b969fa250eefac52ae674b0d935/transformed/jetified-appcompat-resources-1.6.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -401,23 +418,6 @@
                         "endLines": "9331,9337,9347,12142,12146",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "646224,646402,646686,763592,763719"
-                    }
-                },
-                {
-                    "source": "/Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/build/generated/res/processDebugGoogleServices/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,178,260,364,473,593,692",
-                        "endColumns": "122,81,103,108,119,98,75",
-                        "endOffsets": "173,255,359,468,588,687,763"
-                    },
-                    "to": {
-                        "startLines": "1969,1970,1971,1972,1973,1974,2096",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "135352,135475,135557,135661,135770,135890,153599",
-                        "endColumns": "122,81,103,108,119,98,75",
-                        "endOffsets": "135470,135552,135656,135765,135885,135984,153670"
                     }
                 },
                 {
@@ -478,23 +478,6 @@
                     }
                 },
                 {
-                    "source": "/Users/chinmaybehera/ZomealApp/Zomeal_android/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
-                    },
-                    "to": {
-                        "startLines": "1900",
-                        "startColumns": "4",
-                        "startOffsets": "127036",
-                        "endColumns": "51",
-                        "endOffsets": "127083"
-                    }
-                },
-                {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/a5c166b8b658a83d7dde8f284f5d74ce/transformed/recyclerview-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -511,6 +494,23 @@
                         "endLines": "435,1035,1036,1037,1045,1046,1047,1724,11814",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "22357,63375,63423,63479,64165,64241,64313,116297,753923"
+                    }
+                },
+                {
+                    "source": "/Users/chinmaybehera/ZomealApp/android/app/build/generated/res/processDebugGoogleServices/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,178,260,364,473,593,692",
+                        "endColumns": "122,81,103,108,119,98,75",
+                        "endOffsets": "173,255,359,468,588,687,763"
+                    },
+                    "to": {
+                        "startLines": "1969,1970,1971,1972,1973,1974,2096",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "135352,135475,135557,135661,135770,135890,153599",
+                        "endColumns": "122,81,103,108,119,98,75",
+                        "endOffsets": "135470,135552,135656,135765,135885,135984,153670"
                     }
                 },
                 {
