@@ -8,6 +8,7 @@ INJECTED from /Users/chinmaybehera/ZomealApp/android/app/src/debug/AndroidManife
 MERGED from [com.facebook.react:flipper-integration:0.73.4] /Users/chinmaybehera/.gradle/caches/transforms-3/7f07848741942eeb8c469f21e601ba86/transformed/jetified-flipper-integration-0.73.4-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:react-native-google-signin_google-signin] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] /Users/chinmaybehera/ZomealApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -230,6 +231,8 @@ MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_mo
 MERGED from [:react-native-firebase_auth] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
 MERGED from [:react-native-firebase_app] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-google-signin_google-signin] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-google-signin_google-signin] /Users/chinmaybehera/ZomealApp/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-gesture-handler] /Users/chinmaybehera/ZomealApp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-reanimated] /Users/chinmaybehera/ZomealApp/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44

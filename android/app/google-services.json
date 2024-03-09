@@ -13,7 +13,20 @@
           "package_name": "com.zomeal_android"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "422976100777-caebmkc86vltr7octd9s3t1v2qsf6tua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zomeal_android",
+            "certificate_hash": "0263b90871cd9b865ee9182c458a0e890b235492"
+          }
+        },
+        {
+          "client_id": "422976100777-o6vi0is04elp5b3c9tjj6pdofj6r32h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCIOOBnA230uU_ELdhKnUjrEDHoG8Fl5Fs"
@@ -21,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422976100777-o6vi0is04elp5b3c9tjj6pdofj6r32h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

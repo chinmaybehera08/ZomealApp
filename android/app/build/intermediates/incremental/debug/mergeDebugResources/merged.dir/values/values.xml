@@ -1957,6 +1957,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="default_web_client_id" translatable="false">422976100777-o6vi0is04elp5b3c9tjj6pdofj6r32h9.apps.googleusercontent.com</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
