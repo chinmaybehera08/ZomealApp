@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.zomeal_android.app-mergeDebugResources-40:/values-hy/values-hy.xml",
+            "outputFile": "com.zomeal_android.app-mergeDebugResources-41:/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/268280078e87f3dcafb5dbb02da9f44f/transformed/browser-1.4.0/res/values-hy/values-hy.xml",

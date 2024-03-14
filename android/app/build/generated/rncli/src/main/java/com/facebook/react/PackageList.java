@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/auth
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
+// @react-native-firebase/firestore
+import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
 // @react-native-google-signin/google-signin
 import com.reactnativegooglesignin.RNGoogleSigninPackage;
 // react-native-gesture-handler
@@ -72,6 +74,7 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
+      new ReactNativeFirebaseFirestorePackage(),
       new RNGoogleSigninPackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),

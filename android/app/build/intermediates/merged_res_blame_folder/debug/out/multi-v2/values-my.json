@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.zomeal_android.app-mergeDebugResources-40:/values-my/values-my.xml",
+            "outputFile": "com.zomeal_android.app-mergeDebugResources-41:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/d974ac8aa9498213e387fce679b720df/transformed/jetified-react-android-0.73.4-debug/res/values-my/values-my.xml",

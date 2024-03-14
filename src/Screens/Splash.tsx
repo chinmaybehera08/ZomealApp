@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { View, StyleSheet, Image } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import Login from './Login';
+
 import {
   responsiveHeight,
   responsiveWidth,
@@ -27,5 +28,7 @@ const Splash = () => {
 }
 
 export default Splash;
+
+
 
 

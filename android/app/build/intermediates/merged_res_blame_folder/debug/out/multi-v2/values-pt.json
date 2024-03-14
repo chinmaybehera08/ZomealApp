@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.zomeal_android.app-mergeDebugResources-40:/values-pt/values-pt.xml",
+            "outputFile": "com.zomeal_android.app-mergeDebugResources-41:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/2191288890acb3ddfada3069d3b6bac6/transformed/core-1.9.0/res/values-pt/values-pt.xml",

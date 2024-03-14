@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.zomeal_android.app-mergeDebugResources-40:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.zomeal_android.app-mergeDebugResources-41:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/2191288890acb3ddfada3069d3b6bac6/transformed/core-1.9.0/res/values-en-rCA/values-en-rCA.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.zomeal_android.app-mergeDebugResources-40:/values-or/values-or.xml",
+            "outputFile": "com.zomeal_android.app-mergeDebugResources-41:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/chinmaybehera/.gradle/caches/transforms-3/c89a5c643b9a8abd9c26588d25246253/transformed/jetified-play-services-base-18.0.1/res/values-or/values.xml",
