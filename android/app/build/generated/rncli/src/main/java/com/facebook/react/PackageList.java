@@ -17,16 +17,16 @@ import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 // @react-native-firebase/firestore
 import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
-// @react-native-google-signin/google-signin
-import com.reactnativegooglesignin.RNGoogleSigninPackage;
-// react-native-gesture-handler
-import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-linear-gradient
+import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-svg
+import com.horcrux.svg.SvgPackage;
 
 public class PackageList {
   private Application application;
@@ -75,11 +75,11 @@ public class PackageList {
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
       new ReactNativeFirebaseFirestorePackage(),
-      new RNGoogleSigninPackage(),
-      new RNGestureHandlerPackage(),
+      new LinearGradientPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
-      new RNScreensPackage()
+      new RNScreensPackage(),
+      new SvgPackage()
     ));
   }
 }

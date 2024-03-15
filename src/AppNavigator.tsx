@@ -1,24 +1,24 @@
 import {NavigationContainer} from "@react-navigation/native"
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Login from "./Screens/Login";
-import Splash from "./Screens/Splash"
-import Home from "./Screens/Home"
-import { createStackNavigator } from '@react-navigation/stack';
+import {createNativeStackNavigator} from "@react-navigation/native-stack"
+import PhoneSignIn from "./auth/PhoneSign";
+import LoginRedirect from "./screens/LoginRedirect";
+import Dashboard from "./screens/Dashboard";
+import Loginscreen from "./screens/Loginscreen";
 
 
 
-const stack=createNativeStackNavigator();
+const Stack=createNativeStackNavigator();
 
 const AppNavigator= () => {
 
     return (
         <NavigationContainer>
-            <stack.Navigator>
-                <stack.Screen component={Splash} name='Splash' options={{headerShown: true}}/>
-                <stack.Screen component={Login} name='Login' options={{headerShown: true}}/>
-                <stack.Screen component={Home} name='Home' options={{headerShown: true}}/>
-            </stack.Navigator>
-
+            <Stack.Navigator initialRouteName="Dashboard">
+                <Stack.Screen component={LoginRedirect} name="LoginRedirect" options={{headerShown:false}}/>
+                <Stack.Screen component={PhoneSignIn} name="PhoneSignin" options={{headerShown:false}}/>
+                
+                <Stack.Screen component={Dashboard} name="Dashboard" />
+            </Stack.Navigator>
         </NavigationContainer>
             
     )
