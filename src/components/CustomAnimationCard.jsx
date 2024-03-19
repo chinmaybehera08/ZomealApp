@@ -5,6 +5,8 @@ import { secondaryBg } from '../constants/Stylesheet';
 import { FlatList, View } from '@gluestack-ui/themed';
 
 const { width } = Dimensions.get('window');
+
+//Data will be invoke through firebase Storage
 const DATA = [
   { id: '1', title: 'Card 1' },
   { id: '2', title: 'Card 2' },
@@ -13,7 +15,7 @@ const DATA = [
 
 
 
-const CustomAnimationCard = ({cardHeight,cardWidth,title,CardBgColor}) => {
+const CustomAnimationCard = ({cardHeight,cardWidth,title,CardBgColor,cardTransitionTime}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const flatListRef = useRef(null);
 

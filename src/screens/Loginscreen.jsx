@@ -13,36 +13,40 @@ const coverImage = require('../assets/images/coverImage.png');
 
 
 
-const Loginscreen = ({ navigation,handlePress,value,handleChangeText }) => {
+const Loginscreen = ({handleChangeText,value,handlePress}) => {
   return (
     <KeyboardAvoidingView style={{flex:1}}  behavior="padding">
 
     
-      <Box py={'$40'} >
+      <Box py={'$40'} flex={1} justifyContent='center' alignContent='center'>
         <CustomText 
-          paddingTop={'$4'} 
+          paddingAxisY={'$12'}
           text={'Lets Start !'} 
           justifyContent={'center'} 
           textAlign={'center'} 
           fontSize={30} 
-          fontWeight={700}
+          fontWeight={500}
           color={dark} />
-          <CustomDivider width={'70%'} justifyContent={'center'} alignSelf={'center'} paddingAxisY={'$2'}/>
           <Textfield  
              width={'70%'} 
              size={'xl'}   
-             color={secondaryBg} 
+             color={dark} 
              labelText={'Phone Number'} 
              keyboardType={'numeric'}
              errorText={'Must be Atleasat 6 Digits.'}
              labelColor={dark}
              value={value}
              handleChangeText={handleChangeText}
-             inputFieldColor={textColor}
+             inputFieldColor={accentBg}
              fontSize={fontSizeMedium}
+             labelFontSize={15}
+             InputSlotbackgroundColor={'orange'}
+             padding={'$3'}
+             countryCode={'+91'}
+             
             />
           <CustomText color={dark} text={'By loging in, You agree to our Terms and Conditions.'} paddingAxisY={'$2'} justifyContent={'center'} alignSelf={'center'} textAlign={'center'}/>
-          <CustomButton variant={'elevated'}  size={'xl'} title={'Send Code'} width={'70%'} height={50} alignSelf={'center'} bgColor={accentBg} color={primaryBg} handlePressEvent={handlePress}/>
+          <CustomButton borderRadius={50} size={'xl'} title={'Send Code'} width={'70%'} height={50} alignSelf={'center'} bgColor={accentBg} color={primaryBg} handlePressEvent={handlePress} marginVertical={30}/>
       </Box>
 </KeyboardAvoidingView>
 
