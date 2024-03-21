@@ -39,14 +39,13 @@ return(
     </ScrollView>
     <Card py={'$4'} backgroundColor={textColor} borderTopLeftRadius={30} borderTopEndRadius={30}>
     <HStack width={'80%'} py={'$6'} marginLeft={'auto'} marginRight={'auto'} justifyContent='space-between' alignItems='center'>
-        <CustomButton borderRadius={50} width={80} height={80} shadowColor={dark} shadowOffsetWidth={10} shadowOffsetHeight={10} shadowOpacity={.5} shadowRadius={3.84} bgColor={accentBg} handlePressEvent={()=>navigation.navigate('Balance')}/>
-        <CustomButton borderRadius={50} color={textColor} fontSize={12.5} title={isActive ? 'Active' : 'Cancel'} width={80} height={80} shadowColor={'#000'} shadowOffsetWidth={2} shadowOffsetHeight={10} shadowOpacity={.9} shadowRadius={4} rounded={'$full'} bgColor={accentBg} handlePressEvent={handleButtonColor}/>
-        <CustomButton borderRadius={50} width={80} height={80} shadowColor={dark} shadowOffsetWidth={10} shadowOffsetHeight={10} shadowOpacity={.5} shadowRadius={3.84} bgColor={accentBg} handlePressEvent={()=>navigation.navigate('Calories')}/>
+    <CustomButton borderRadius={50} width={80} height={80} shadowColor={dark} shadowOffsetWidth={10} shadowOffsetHeight={10} shadowOpacity={.5} shadowRadius={3.84} bgColor={accentBg} handlePressEvent={()=>navigation.navigate('Balance')}/>
+    <CustomButton borderRadius={50} color={textColor} fontSize={12.5} title={isActive ? 'Active' : 'Cancel'} width={80} height={80} shadowColor={'#000'} shadowOffsetWidth={2} shadowOffsetHeight={10} shadowOpacity={.9} shadowRadius={4} rounded={'$full'} bgColor={accentBg} handlePressEvent={handleButtonColor}/>
+    <CustomButton borderRadius={50} width={80} height={80} shadowColor={dark} shadowOffsetWidth={10} shadowOffsetHeight={10} shadowOpacity={.5} shadowRadius={3.84} bgColor={accentBg} handlePressEvent={()=>navigation.navigate('Calories')}/>
     </HStack>
     </Card>
     </Box>
-    
-      
+
 )
 }
 const Services=()=>{
@@ -63,7 +62,7 @@ return(
 }
 const Packages=()=>{
  return(
-    <CustomText text={'Packages'}/>
+    
  )
 }
 const CloudKitchen=()=>{
